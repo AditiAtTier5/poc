@@ -3,19 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.redbeltgym.testcases.AttendanceContact">
+      <class name="testcases.Runner">
         <methods>
           <include name="setUpClass"/>
-          <include name="report"/>
-          <include name="beforeMethod"/>
+          <include name="preCondition"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
-          <include name="startReport"/>
-          <include name="setValues"/>
-          <include name="stopReport"/>
-          <include name="logInPass"/>
-          <include name="afterMethod"/>
+          <include name="postCondition"/>
         </methods>
-      </class> <!-- com.redbeltgym.testcases.AttendanceContact -->
+      </class> <!-- testcases.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

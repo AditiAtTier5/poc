@@ -3,19 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.redbeltgym.testcases.SMS">
+      <class name="testcases.VerifyLogin">
         <methods>
-          <include name="sendSMS"/>
           <include name="setUpClass"/>
-          <include name="report"/>
-          <include name="setValues"/>
-          <include name="beforeMethod"/>
+          <include name="preCondition"/>
+          <include name="runVerifyLogin"/>
           <include name="tearDownClass"/>
-          <include name="startReport"/>
-          <include name="stopReport"/>
-          <include name="afterMethod"/>
+          <include name="postCondition"/>
         </methods>
-      </class> <!-- com.redbeltgym.testcases.SMS -->
+      </class> <!-- testcases.VerifyLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

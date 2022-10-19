@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T17:56:06 IST" name="Default suite" finished-at="2022-10-18T18:00:35 IST" duration-ms="269374">
+  <suite started-at="2022-10-19T16:30:49 IST" name="Default suite" finished-at="2022-10-19T16:33:14 IST" duration-ms="145619">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-10-18T17:56:06 IST" name="Default test" finished-at="2022-10-18T18:00:35 IST" duration-ms="269374">
+    <test started-at="2022-10-19T16:30:49 IST" name="Default test" finished-at="2022-10-19T16:33:14 IST" duration-ms="145619">
       <class name="testcases.Runner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:06 IST" name="setUpClass" finished-at="2022-10-18T17:56:06 IST" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:30:49 IST" name="setUpClass" finished-at="2022-10-19T16:30:49 IST" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:06 IST" name="preCondition" finished-at="2022-10-18T17:56:12 IST" duration-ms="5504" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:30:49 IST" name="preCondition" finished-at="2022-10-19T16:30:54 IST" duration-ms="5128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:56:37 IST" duration-ms="24924" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:30:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-19T16:31:19 IST" duration-ms="24930" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:37 IST" name="postCondition" finished-at="2022-10-18T17:56:45 IST" duration-ms="8100" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:31:19 IST" name="postCondition" finished-at="2022-10-19T16:31:27 IST" duration-ms="8101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:45 IST" name="preCondition" finished-at="2022-10-18T17:56:50 IST" duration-ms="5268" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:31:27 IST" name="preCondition" finished-at="2022-10-19T16:31:31 IST" duration-ms="3291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:56:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:57:15 IST" duration-ms="24835" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:31:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-19T16:31:55 IST" duration-ms="24869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,15 +58,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:57:15 IST" name="postCondition" finished-at="2022-10-18T17:57:23 IST" duration-ms="8097" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:31:55 IST" name="postCondition" finished-at="2022-10-19T16:32:04 IST" duration-ms="8070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:57:23 IST" name="preCondition" finished-at="2022-10-18T17:57:28 IST" duration-ms="4875" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:32:04 IST" name="preCondition" finished-at="2022-10-19T16:32:09 IST" duration-ms="5955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:57:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:57:50 IST" duration-ms="22081" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:32:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-19T16:32:32 IST" duration-ms="22356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,15 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:57:50 IST" name="postCondition" finished-at="2022-10-18T17:57:58 IST" duration-ms="8078" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:32:32 IST" name="postCondition" finished-at="2022-10-19T16:32:40 IST" duration-ms="8078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:57:58 IST" name="preCondition" finished-at="2022-10-18T17:58:03 IST" duration-ms="5121" status="PASS">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:32:40 IST" name="preCondition" finished-at="2022-10-19T16:32:43 IST" duration-ms="3364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:58:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:58:25 IST" duration-ms="21856" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-19T16:33:05 IST" duration-ms="21809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,107 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:58:25 IST" name="postCondition" finished-at="2022-10-18T17:58:33 IST" duration-ms="8102" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:33:05 IST" name="postCondition" finished-at="2022-10-19T16:33:13 IST" duration-ms="8097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:58:33 IST" name="preCondition" finished-at="2022-10-18T17:58:38 IST" duration-ms="5026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:58:58 IST" duration-ms="19809" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a gym owner I will be able to change password so that I can recreate a new password after validating the current password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Personal details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:58:58 IST" name="postCondition" finished-at="2022-10-18T17:59:06 IST" duration-ms="8094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:06 IST" name="preCondition" finished-at="2022-10-18T17:59:11 IST" duration-ms="5232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:59:31 IST" duration-ms="19880" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a gym owner I will be able to change password so that I can recreate a new password after validating the current password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Personal details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:31 IST" name="postCondition" finished-at="2022-10-18T17:59:39 IST" duration-ms="8074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:39 IST" name="preCondition" finished-at="2022-10-18T17:59:44 IST" duration-ms="4929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T17:59:59 IST" duration-ms="14588" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a gym owner/gym staff I will be able to edit the account details so that I can change the Username & display picture whenever required"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Personal details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T17:59:59 IST" name="postCondition" finished-at="2022-10-18T18:00:07 IST" duration-ms="8097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T18:00:07 IST" name="preCondition" finished-at="2022-10-18T18:00:11 IST" duration-ms="4639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T18:00:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-18T18:00:26 IST" duration-ms="14536" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a gym owner/gym staff I will be able to edit the account details so that I can change the Username & display picture whenever required"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Personal details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T18:00:26 IST" name="postCondition" finished-at="2022-10-18T18:00:34 IST" duration-ms="8093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-18T18:00:34 IST" name="tearDownClass" finished-at="2022-10-18T18:00:35 IST" duration-ms="1061" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testcases.Runner@5f058f00]" started-at="2022-10-19T16:33:13 IST" name="tearDownClass" finished-at="2022-10-19T16:33:14 IST" duration-ms="1079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

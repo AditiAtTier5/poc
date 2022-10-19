@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="preCondition"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="1 2"/>
           <include name="tearDownClass"/>
           <include name="postCondition"/>
         </methods>

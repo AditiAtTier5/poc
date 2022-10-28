@@ -16,7 +16,7 @@ public class DashboardPage extends BaseClass {
 		String url = getDriver().getCurrentUrl();
 		url.contains("dashboard");
 		return this;
-	}
+	}	
 
 	@Then("Click on the setup menu which is in the top right side")
 	public DashboardPage clicksetup() throws InterruptedException {

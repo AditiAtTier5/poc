@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import base.BaseClass;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginPage extends BaseClass {
@@ -24,5 +25,13 @@ public class LoginPage extends BaseClass {
 		// click on Login button
 		getDriver().findElement(By.xpath("//div[@class='formInputs']/button")).click();
 		return new DashboardPage();
+	}
+
+	@Then("This will be in Login page only")
+	public LoginPage dashboardURL() throws InterruptedException {
+		Thread.sleep(6000);
+		String url = getDriver().getCurrentUrl();
+		url.contains("login");
+		return this;
 	}
 }

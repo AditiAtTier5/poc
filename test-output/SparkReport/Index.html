@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 19, 2022 04:30:49 pm</span></a>
+<a href="#"><span class="badge badge-primary">Oct 28, 2022 12:34:40 pm</span></a>
 </li>
 </ul>
 </div>
@@ -61,19 +61,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 19, 2022 04:30:49 pm</h3>
+<h3>Oct 28, 2022 12:34:40 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 19, 2022 04:33:13 pm</h3>
+<h3>Oct 28, 2022 12:35:34 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -96,7 +96,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>1</b> features passed
+<b>2</b> features passed
 </small>
 </div>
 <div>
@@ -118,7 +118,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>8</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -138,7 +138,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>40</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>56</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -157,7 +157,7 @@
 </div></div>
 <script>
 var timeline = {
-"Personal details":130.724
+"Login Feature":16.137,"Personal Details Feature":31.324
 };
 </script>
 <div class="row">
@@ -192,18 +192,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 2,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 4,
+passChild: 8,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 40,
+passGrandChild: 56,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -233,9 +233,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Personal details</p>
+            <p class="name">Login Feature</p>
             <p class="text-sm">
-              <span>4:30:54 pm</span> / <span>00:02:10:724</span>
+              <span>12:34:51 pm</span> / <span>00:00:16:137</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -243,10 +243,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Personal details</h5>
-<span class='badge badge-success'>10.19.2022 4:30:54 pm</span>
-<span class='badge badge-danger'>10.19.2022 4:33:05 pm</span>
-<span class='badge badge-default'>00:02:10:724</span>
+<h5 class="test-status text-pass">Login Feature</h5>
+<span class='badge badge-success'>10.28.2022 12:34:51 pm</span>
+<span class='badge badge-danger'>10.28.2022 12:35:07 pm</span>
+<span class='badge badge-default'>00:00:16:137</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -258,14 +258,43 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with valid credential</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with valid credential</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Enter username as 'test-own1@tier5.in'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Password as '123456'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Click on Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Dashboard should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with valid credential</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -289,33 +318,41 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with Invalid credential</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="5"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with Invalid credential</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
                   <div class="step pass-bg">
-                    <span>Then Click on the setup menu which is in the top right side</span>
+                    <span>Given Enter username as 'test-gymown1@tier5.in'</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>Then There will be one option named 'Personal Details', need to click on that</span>
+                    <span>And Enter Password as '12345'</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>Then The Personal Details dashboard will open</span>
+                    <span>When Click on Login</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>Then There at the left side auto populated personal details will be there</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then There will be name 'Gym own edited' & email 'test-gymown1@tier5.in' about user</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then I want to edit the personal details, edit name 'Gym own edited'</span>
+                    <span>Then This will be in Login page only</span>
       <div>
       </div>
                   </div>
@@ -324,7 +361,75 @@ eventsCount: 5,
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
+                  <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I want to login to portal with Invalid credential</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Enter username as 'test-own1@tier5.in'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Password as '12345'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Click on Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then This will be in Login page only</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Personal Details Feature</p>
+            <p class="text-sm">
+              <span>12:34:54 pm</span> / <span>00:00:31:324</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Personal Details Feature</h5>
+<span class='badge badge-success'>10.28.2022 12:34:54 pm</span>
+<span class='badge badge-danger'>10.28.2022 12:35:26 pm</span>
+<span class='badge badge-default'>00:00:31:324</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -380,19 +485,78 @@ eventsCount: 5,
                   </div>
               </div>
             </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="29"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Enter username as 'test-gymown1@tier5.in'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Password as '123456'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Click on Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Dashboard should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on the setup menu which is in the top right side</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then There will be one option named 'Personal Details', need to click on that</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The Personal Details dashboard will open</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then There at the left side auto populated personal details will be there</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then There will be name 'Gym own edited' & email 'test-gymown1@tier5.in' about user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I want to edit the personal details, edit name 'Gym own edited'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
         </div>
   </div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
+                  <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -451,7 +615,7 @@ eventsCount: 5,
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
+                  <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to view & update the Basic settings so that I can save the new data</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">

@@ -1,4 +1,4 @@
-Feature: Personal details
+Feature: Personal Details Feature
 
 Scenario Outline: As a Gym Owner/ Gym Staff I will be able to read my auto populated personal details under general settings so that I can update it as per my requirement
 

@@ -16,7 +16,7 @@ public class DashboardPage extends BaseClass {
 		String url = getDriver().getCurrentUrl();
 		url.contains("dashboard");
 		return this;
-	}	
+	}
 
 	@Then("Click on the setup menu which is in the top right side")
 	public DashboardPage clicksetup() throws InterruptedException {
@@ -47,6 +47,13 @@ public class DashboardPage extends BaseClass {
 		}
 
 		return new PersonalDetailsPage();
+	}
+
+	@Then("Click on Email Templates")
+	public EmailTemplatePage clickEmailTemplates() throws InterruptedException {
+		Thread.sleep(2000);
+		getDriver().findElement(By.xpath("//a[@href='/email-template']")).click();
+		return new EmailTemplatePage();
 	}
 
 }

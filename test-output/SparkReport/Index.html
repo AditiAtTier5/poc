@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 11, 2022 05:37:36 pm</span></a>
+<a href="#"><span class="badge badge-primary">Nov 11, 2022 06:48:45 pm</span></a>
 </li>
 </ul>
 </div>
@@ -61,25 +61,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 11, 2022 05:37:36 pm</h3>
+<h3>Nov 11, 2022 06:48:45 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 11, 2022 05:37:59 pm</h3>
+<h3>Nov 11, 2022 06:50:23 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -95,12 +95,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='100%'>
+<b>2</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -118,9 +118,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>2</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>1</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -138,10 +138,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='41%'><b>5</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>23</b> steps passed</small></div>
 <div>
-<small data-tooltip='8%'><b>1</b> steps failed,
-<b>6</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -157,7 +157,7 @@
 </div></div>
 <script>
 var timeline = {
-"Email Template Feature":8.271
+"Email Template Feature":52.044,"Send Email Feature":23.608
 };
 </script>
 <div class="row">
@@ -192,21 +192,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 2,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 1,
+passChild: 2,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 5,
-failGrandChild: 1,
+passGrandChild: 23,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 6,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -220,7 +220,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -228,25 +228,25 @@ eventsCount: 5,
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Email Template Feature</p>
             <p class="text-sm">
-              <span>5:37:42 pm</span> / <span>00:00:08:271</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>6:48:48 pm</span> / <span>00:00:52:044</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Email Template Feature</h5>
-<span class='badge badge-success'>11.11.2022 5:37:42 pm</span>
-<span class='badge badge-danger'>11.11.2022 5:37:51 pm</span>
-<span class='badge badge-default'>00:00:08:271</span>
+<h5 class="test-status text-pass">Email Template Feature</h5>
+<span class='badge badge-success'>11.11.2022 6:48:48 pm</span>
+<span class='badge badge-danger'>11.11.2022 6:49:40 pm</span>
+<span class='badge badge-default'>00:00:52:044</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -258,19 +258,19 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>As a Gym Owner I will be able to create & edit Email templates so that I can reuse the message content while sending any Email</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to create & edit Email templates so that I can reuse the message content while sending any Email</div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>As a Gym Owner I will be able to create & edit Email templates so that I can reuse the message content while sending any Email</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner I will be able to create & edit Email templates so that I can reuse the message content while sending any Email</div>
                 </div>
               </div>
-              <div class="card-body mt-3 ">
+              <div class="card-body mt-3 collapse">
                   <div class="step pass-bg">
-                    <span>Given Enter username as 'test-gymtime@tier5.in'</span>
+                    <span>Given Enter username as 'test-own1@tier5.in'</span>
       <div>
       </div>
                   </div>
@@ -294,39 +294,142 @@ eventsCount: 5,
       <div>
       </div>
                   </div>
-                  <div class="step fail-bg">
+                  <div class="step pass-bg">
                     <span>Then Click on Email Templates</span>
-      <div>Step undefined
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Email Template page should be displayed</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Click on Create an Email Template button</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Enter Title 'Test Title'</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Enter Subject 'Test Subject'</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Enter Message 'Test Message'</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then Click on Save</span>
-      <div>Step skipped
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Send Email Feature</p>
+            <p class="text-sm">
+              <span>6:49:51 pm</span> / <span>00:00:23:608</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Send Email Feature</h5>
+<span class='badge badge-success'>11.11.2022 6:49:51 pm</span>
+<span class='badge badge-danger'>11.11.2022 6:50:15 pm</span>
+<span class='badge badge-default'>00:00:23:608</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner or Gym staff I will be able to Send and Email</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>As a Gym Owner or Gym staff I will be able to Send and Email</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Enter username as 'test-own1@tier5.in'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Password as '123456'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Click on Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Dashboard should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on the setup menu which is in the top right side</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Email Templates</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Email Template page should be displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Option dropdown select Email</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter Email ID 'aditi.ghosh@tier5.in' to send an Email</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Select from template</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Send Email</span>
+      <div>
       </div>
                   </div>
               </div>

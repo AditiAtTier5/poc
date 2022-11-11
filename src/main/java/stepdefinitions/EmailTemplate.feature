@@ -17,4 +17,4 @@ Then Click on Save
 
 Examples:
 |username|password|title|subject|message|
-|'test-gymtime@tier5.in'|'123456'|'Test Title'|'Test Subject'|'Test Message'|
+|'test-own1@tier5.in'|'123456'|'Test Title'|'Test Subject'|'Test Message'|
